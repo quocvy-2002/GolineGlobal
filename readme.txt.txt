@@ -21,7 +21,7 @@ jakarta.persistence-api: API JPA
 com.mysql:mysql-connector-j: Kết nối MySQL
 
 
-MapStruct và Lombok (Tự động mapping dữ liệu và giảm code)
+MapStruct và Lombok 
 
 mapstruct
 lombok
@@ -43,11 +43,11 @@ bootstrap: Hỗ trợ UI
 API & Xử lý dữ liệu
 
 axios: Gọi API từ backend
-cors: Hỗ trợ xử lý CORS (nếu cần)
+cors: Hỗ trợ xử lý CORS 
 Pagination
 
 react-paginate: Hỗ trợ phân trang
-Dev Dependencies (Chỉ dùng khi phát triển)
+Dev Dependencies 
 
 vite: Công cụ build nhanh cho React
 eslint, eslint-plugin-react, eslint-plugin-react-hooks: Hỗ trợ linting code
