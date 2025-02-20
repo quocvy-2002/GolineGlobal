@@ -1,0 +1,26 @@
+.header {
+  position: sticky;
+  top: 0;
+  background: #333;
+  color: white;
+  line-height: 20px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.footer {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 50px; 
+  background: #222; 
+  color: white; 
+}
+
+.footer-span {
+  font-size: 16px; 
+}
+.navbar-brand {
+  color: white !important;
+  margin-left: 30px;
+}

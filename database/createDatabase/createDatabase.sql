@@ -1,0 +1,1 @@
+CREATE DATABASE RealEstate CHAR SET utf8mb4;
