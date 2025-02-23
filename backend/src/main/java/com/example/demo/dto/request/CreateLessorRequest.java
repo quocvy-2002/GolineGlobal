@@ -13,5 +13,4 @@ public class CreateLessorRequest {
     String lessorEmail;
     String lessorAddress;
     String lessorPassword;
-    String lessorStatus;
 }

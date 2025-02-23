@@ -77,7 +77,7 @@ public class LessorService {
             throw new AppException(ErrorCode.INVALID_PASSWORD);
         }
 
-        String token = JwtUtil.generateToken(lessor.getLessorEmail(), lessor.getLessorId());
+        String token = JwtUtil.generateToken(lessor.getLessorEmail());
 
         return new LoginResponse(token, lessorMapper.toLessorResponse(lessor));
     }
